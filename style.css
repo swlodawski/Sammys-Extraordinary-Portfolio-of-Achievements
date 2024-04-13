@@ -12,10 +12,10 @@ p {
 }
 
 #h4 {
+    display: block;
     position: absolute;
     text-align: center;
-    vertical-align: middle;
-    float: right;
+    box-sizing: content-box;
 }
 
 img {
