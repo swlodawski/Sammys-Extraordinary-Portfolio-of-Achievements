@@ -1,0 +1,17 @@
+li {
+    padding: 2%;
+    flex-direction: column;
+    float:right;
+    list-style: none;
+    
+}
+
+p {
+    margin: 20px 20px 40px 40px; 
+    block-size: auto;
+}
+
+h4 {
+    position: absolute;
+    text-align: center;
+}
