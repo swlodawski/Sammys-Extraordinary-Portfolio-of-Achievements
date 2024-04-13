@@ -11,7 +11,7 @@ p {
     block-size: auto;
 }
 
-#h4 {
+body {
     display: block;
     position: absolute;
     text-align: center;
@@ -39,5 +39,9 @@ img {
     padding: 2%;
     float: right;
     list-style: none;
+}
+
+h1 {
+    float: left;
 }
 
