@@ -11,14 +11,32 @@ p {
     block-size: auto;
 }
 
-h4 {
+#h4 {
     position: absolute;
     text-align: center;
+    vertical-align: middle;
+    float: right;
 }
 
 img {
     height: 200px;
     width: 200px;
-    
+}
 
+.Professional-References {
+    font-weight: bolder;
+    height: 75px;
+    flex-direction: column;
+    padding: 2%;
+    float: right;
+    list-style: none;
+}
+
+.Contact-Info {
+    font-weight: bolder;
+    height: 75px;
+    flex-direction: column;
+    padding: 2%;
+    float: right;
+    list-style: none;
 }
