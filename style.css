@@ -1,47 +1,45 @@
-li {
-    padding: 2%;
-    flex-direction: column;
-    float:right;
-    list-style: none;
-    
-}
-
-p {
-    margin: 20px 20px 40px 40px; 
-    block-size: auto;
-}
-
-body {
-    display: block;
-    position: absolute;
-    text-align: center;
-    box-sizing: content-box;
-}
 
 img {
     height: 200px;
     width: 200px;
 }
 
+.Work-Product {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+    border: 10px;
+}
 .Professional-References {
-    font-weight: bolder;
-    height: 75px;
-    flex-direction: column;
-    padding: 2%;
-    float: right;
-    list-style: none;
+    display: inline;
+    top: 0px;
+    right: 0px;
+    
 }
 
 .Contact-Info {
-    font-weight: bolder;
-    height: 75px;
-    flex-direction: column;
-    padding: 2%;
-    float: right;
-    list-style: none;
+    display: inline;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
 }
 
-h1 {
-    float: left;
+.Work-Product-Choices {
+width: 600px;
+height: 600px;
+text-align: center;
+border: 15px solid black;
+margin: auto;
 }
 
+header {
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+footer {
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
