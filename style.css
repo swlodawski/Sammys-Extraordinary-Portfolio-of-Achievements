@@ -7,10 +7,11 @@ img {
 .Work-Product {
     width: 200px;
     height: 200px;
-    background-color: lightblue;
     margin: 20px;
     padding: 20px;
     border: 10px;
+    display: inline;
+
 }
 .Professional-References {
     display: inline;
@@ -34,6 +35,7 @@ border: 15px solid black;
 margin: auto;
 }
 
+
 header {
     margin-top: 0px;
     margin-right: 0px;
@@ -43,3 +45,23 @@ footer {
     margin-bottom: 0px;
     margin-right: 0px;
 }
+
+section {
+    border-right-style: solid;
+    border-color: black;
+}
+
+#Info-Link-1 {
+font-size: 25px;
+font-weight: bolder;
+}
+
+#Info-Link-2 {
+    font-size: 25px;
+    font-weight: bolder;
+    }
+
+    #Info-Link-3 {
+        font-size: 25px;
+        font-weight: bolder;
+        }
