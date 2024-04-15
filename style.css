@@ -14,25 +14,27 @@ img {
 
 }
 .header li {
-    display: inline;
-    top: 0px;
-    right: 0px;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
     
 }
 
 .footer li {
-    display: inline;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
 
 }
 
 .section ul {
-width: 600px;
-height: 600px;
-text-align: center;
-border: 15px solid black;
-margin: auto;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border: 15px solid black;
+    margin: auto;
 }
 
 
