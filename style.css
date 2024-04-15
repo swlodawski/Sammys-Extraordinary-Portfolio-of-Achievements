@@ -4,7 +4,7 @@ img {
     width: 200px;
 }
 
-.Work-Product {
+.section li {
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -13,21 +13,21 @@ img {
     display: inline;
 
 }
-.Professional-References {
+.header li {
     display: inline;
     top: 0px;
     right: 0px;
     
 }
 
-.Contact-Info {
+.footer li {
     display: inline;
     margin-bottom: 0px;
     margin-right: 0px;
 
 }
 
-.Work-Product-Choices {
+.section ul {
 width: 600px;
 height: 600px;
 text-align: center;
@@ -37,31 +37,28 @@ margin: auto;
 
 
 header {
+    display: inline;
     margin-top: 0px;
     margin-right: 0px;
 }
 
 footer {
+    display: inline;
     margin-bottom: 0px;
     margin-right: 0px;
 }
 
-section {
-    border-right-style: solid;
-    border-color: black;
-}
-
-#Info-Link-1 {
+header {
 font-size: 25px;
 font-weight: bolder;
 }
 
-#Info-Link-2 {
+header {
     font-size: 25px;
     font-weight: bolder;
     }
 
-    #Info-Link-3 {
-        font-size: 25px;
-        font-weight: bolder;
-        }
+header {
+    font-size: 25px;
+    font-weight: bolder;
+    }
