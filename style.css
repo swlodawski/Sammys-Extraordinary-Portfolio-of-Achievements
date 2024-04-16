@@ -10,7 +10,7 @@ img {
     margin: 20px;
     padding: 20px;
     border: 10px;
-    display: inline;
+    display: block;
 
 }
 .header li {
@@ -18,6 +18,7 @@ img {
     margin-right: 20px;
     float: right;
     font-size: 20px;
+    display: inline;
     
 }
 
@@ -26,7 +27,8 @@ img {
     margin-right: 20px;
     float: right;
     font-size: 20px;
-
+    display: inline;
+    font-weight: bold;
 }
 
 .section ul {
@@ -35,6 +37,7 @@ img {
     text-align: center;
     border: 15px solid black;
     margin: auto;
+    display: block;
 }
 
 
@@ -64,3 +67,35 @@ header {
     font-size: 25px;
     font-weight: bolder;
     }
+
+.section-title {
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-title {
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-bottom: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    display: inline;
+    font-weight: bold;
+}
+
+.header ul {padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-size: 20px;
+display: inline;
+}
