@@ -9,8 +9,10 @@ img {
     height: 200px;
     margin: 20px;
     padding: 20px;
-    border: 10px;
+    border: 9px;
     display: block;
+    position: relative;
+
 
 }
 .header li {
@@ -38,6 +40,7 @@ img {
     border: 15px solid black;
     margin: auto;
     display: block;
+    position: relative;
 }
 
 
@@ -71,7 +74,6 @@ header {
 .section-title {
     padding-bottom: 15px;
     margin-right: 20px;
-    float: left;
     font-size: 20px;
     font-weight: bold;
 }
@@ -95,7 +97,12 @@ header {
 
 .header ul {padding-top: 15px;
 margin-right: 20px;
-float: right;
 font-size: 20px;
-display: inline;
+display: inline-block;
+}
+
+.h4 {
+    margin-left: 400px;
+    margin-top: 100px;
+
 }
