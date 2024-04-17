@@ -2,6 +2,8 @@
 img {
     height: 200px;
     width: 200px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
 
 .section li {
@@ -46,8 +48,13 @@ img {
 
 header {
     display: inline;
+    float: right;
     margin-top: 0px;
     margin-right: 0px;
+    margin-left: auto;
+    background-color: blueviolet;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 footer {
@@ -56,25 +63,10 @@ footer {
     margin-right: 0px;
 }
 
-header {
-font-size: 25px;
-font-weight: bolder;
-}
-
-header {
-    font-size: 25px;
-    font-weight: bolder;
-    }
-
-header {
-    font-size: 25px;
-    font-weight: bolder;
-    }
-
 .section-title {
     padding-bottom: 15px;
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -82,7 +74,7 @@ header {
     padding-bottom: 15px;
     margin-right: 20px;
     float: left;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -103,6 +95,13 @@ display: inline-block;
 
 .h4 {
     margin-left: 400px;
+    margin-right: 200px;
     margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
 
+}
+
+header, body, footer {
+    flex-wrap: wrap;
 }
