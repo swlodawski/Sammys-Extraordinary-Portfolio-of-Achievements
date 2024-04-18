@@ -7,81 +7,79 @@ img {
 }
 
 .section li {
-    width: 200px;
-    height: 200px;
-    margin: 20px;
-    padding: 20px;
-    border: 9px;
-    display: block;
-    position: relative;
-
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
 
 }
+
 .header li {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
     display: inline;
+    color: blue;
+    text-decoration: underline;
+}
+
+.header ul {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    display: inline;
+    flex-direction: row;
     
 }
 
-.footer li {
+.contact-me li {
     padding-bottom: 15px;
     margin-right: 20px;
     float: right;
     font-size: 20px;
     display: inline;
     font-weight: bold;
+    color: blue;
+    text-decoration: underline;
 }
 
 .section ul {
-    width: 600px;
-    height: 600px;
-    text-align: center;
-    border: 15px solid black;
-    margin: auto;
-    display: block;
-    position: relative;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    display: inline-block;
 }
-
 
 header {
     display: inline;
-    float: right;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: auto;
     background-color: blueviolet;
     font-size: 40px;
     font-weight: bold;
 }
-
-footer {
-    display: inline;
-    margin-bottom: 0px;
-    margin-right: 0px;
-}
-
-.section-title {
+.work-section-title {
     padding-bottom: 15px;
     margin-right: 20px;
     font-size: 30px;
     font-weight: bold;
 }
 
-.footer-title {
+.contact-me {
     padding-bottom: 15px;
     margin-right: 20px;
     float: left;
     font-size: 30px;
-    font-weight: bold;
 }
 
-.footer ul {
+.contact-me ul {
     padding-bottom: 15px;
     margin-right: 20px;
-    float: right;
+    float: left;
     font-size: 20px;
     display: inline;
     font-weight: bold;
