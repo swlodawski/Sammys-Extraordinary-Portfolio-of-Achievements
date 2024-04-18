@@ -12,16 +12,16 @@ nav li{
     text-align: right;
   }
 
+  nav ul {
+    margin-top: auto;
+    margin-left: 1000px;
+    padding: 20px;
+  }
+
   footer li{
     display: inline;
     margin-right: 12px;
     text-align: right;
-  }
-
-  section ul{
-    flex: content;
-    display: inline;
-    margin-right: 12px;
   }
 
   img {
@@ -31,11 +31,17 @@ nav li{
   }
 
   footer ul {
-    margin-bottom: auto;
-    margin-right: 0%;
+    margin-top: 900px;
+    margin-left: 700px;
     justify-content: flex-end;
   }
 
   p {
     margin: 15px 500px;
+  }
+
+  .work {
+    margin-top: 300px;
+    margin-right: 300px;
+    padding: 30px;
   }
