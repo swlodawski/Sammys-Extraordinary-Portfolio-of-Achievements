@@ -25,23 +25,55 @@ nav li{
   }
 
   img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 300px;
     flex-wrap: wrap;
+    padding: 15px;
   }
 
   footer ul {
-    margin-top: 900px;
-    margin-left: 700px;
-    justify-content: flex-end;
+ display: flexbox;
+ justify-content: baseline;
+ margin-top: 500px;
+ margin-left: 700px;
+}
+
+
+  div {
+    margin-left: 600px;
+    margin-right: 250px;
+    margin-top: 300px;
   }
 
   p {
-    margin: 15px 500px;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
   }
 
-  .work {
-    margin-top: 300px;
-    margin-right: 300px;
-    padding: 30px;
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+  }
+  .box div {
+    width: 100px;
+    height: 100px;
+   
+  }
+
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+  }
+
+  .box p {
+    width: 100px;
+    height: 100px;
+   
   }
