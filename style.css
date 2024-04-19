@@ -48,9 +48,9 @@ div {
 }
 
 p {
-  display: flex;
-  width: 50%;
-  justify-content: flex-end;
+margin: 0 auto;
+width: 80%;
+text-align: end;
 }
 
 .box {
