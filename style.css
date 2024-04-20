@@ -38,8 +38,19 @@ img {
   padding: 15px;
 }
 
-main {
+section {
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 footer {
