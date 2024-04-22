@@ -20,15 +20,17 @@ figure {
 display: flex;
 position: relative;
 max-width: 100%;
+object-fit: cover;
 }
 
 
 section h3 {
-  justify-content: flex-start;
+  align-content: flex-start;
+  justify-content: left;
 }
 
 section p {
-  justify-content: end;
+  width: 50%;
 }
 
 
