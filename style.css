@@ -25,8 +25,7 @@ object-fit: cover;
 
 
 section h3 {
-  align-content: flex-start;
-  justify-content: left;
+margin-left: 10px;
 }
 
 section p {
@@ -44,7 +43,7 @@ header nav ul li {
 }
 
 img {
-  height: 150px;
+  height: 200px;
   width: 300px;
   flex-wrap: wrap;
   padding: 15px;
@@ -55,7 +54,18 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
+}
 
+article {
+  display: flex;
+}
+
+article img {
+  width: 50%;
+  height: 300px;
+  width: 400px;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 .container {
