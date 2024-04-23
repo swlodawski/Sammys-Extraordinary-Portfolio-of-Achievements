@@ -25,7 +25,19 @@ object-fit: cover;
 
 
 section h3 {
-margin-left: 10px;
+  font-size: 30px;
+}
+
+section h3 {
+ font-size: 30px; 
+}
+
+footer h3 {
+  font-size: 30px;
+}
+
+div section h3 {
+  font-size: 30px; 
 }
 
 section p {
@@ -61,10 +73,11 @@ article {
 }
 
 article img {
+  align-items: first baseline;
   width: 50%;
-  height: 300px;
-  width: 400px;
-  margin-left: 500px;
+  height: 250px;
+  width: 350px;
+  margin-left: 250px;
   margin-right: 500px;
 }
 
@@ -73,6 +86,7 @@ article img {
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
+  margin: 350px;
 }
 
 footer {
