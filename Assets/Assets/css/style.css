@@ -13,23 +13,21 @@ margin-right: 20px;
 float: right;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 font-size: 20px;
-
 }
 
 figure {
 display: flex;
-position: relative;
-max-width: 100%;
-object-fit: cover;
+padding: 0%;
+margin: auto;
 }
 
-
-section h3 {
+div h3 {
+  position: relative;
   font-size: 30px;
 }
 
 section h3 {
- font-size: 30px; 
+  font-size: 30px;
 }
 
 footer h3 {
