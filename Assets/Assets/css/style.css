@@ -39,6 +39,11 @@ section p {
   width: 40%;
 }
 
+#about-me-h3 {
+  border-right: 5px solid black;
+  padding: 10px;
+}
+
 header nav ul {
 list-style: none;
 }
