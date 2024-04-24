@@ -25,24 +25,14 @@ font-size: 20px;
 
 figure {
 display: flex;
-padding: 0%;
-margin: auto;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-position: center;
 }
 
-div h3 {
+div h3, section h3, footer h3 {
   font-size: 30px;
-}
-
-section h3 {
-  font-size: 30px;
-}
-
-footer h3 {
-  font-size: 30px;
-}
-
-div section h3 {
-  font-size: 30px; 
 }
 
 section p {
