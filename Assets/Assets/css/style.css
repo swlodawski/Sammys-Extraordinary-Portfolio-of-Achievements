@@ -66,6 +66,11 @@ section {
   flex-direction: row;
 }
 
+section h3 {
+  margin-right: 1400px;
+  align-items: center;
+}
+
 article {
   display: flex;
 }
