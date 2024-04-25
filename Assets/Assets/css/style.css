@@ -31,15 +31,14 @@ background-size: cover;
 background-position: center;
 }
 
-section {
-  display: flex;
-}
-
 .about-me p {
   width: 80%;
+  /* margin-left: 400px;
+  margin-right: 250px; */
 }
 
 .about-me h3 {
+  margin-left: 0px;
   font-size: 30px;
   text-align: left;
   padding: 10px;
@@ -56,14 +55,20 @@ footer h3 {
   height: 200px;
   width: 300px;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 .bigPicture {
-
+width: 80%;
+max-height: 250px;
+object-fit: cover;
+margin: 40px;
 }
 
 .smallPicture {
-
+width: 40%;
+object-fit: cover;
+margin: 25px 25px 25px 25px;
 }
 
 section p {
@@ -83,7 +88,7 @@ img {
   height: 200px;
   width: 300px;
   flex-wrap: wrap;
-  padding: 15px;
+  padding: 10px;
 }
 
 section {
@@ -93,31 +98,31 @@ section {
   flex-direction: row;
 }
 
-article {
+/* article {
   display: flex;
-}
+} */
 
-article img {
+/* article img {
   align-items: first baseline;
   width: 50%;
   height: 250px;
   width: 350px;
   margin-left: 250px;
   margin-right: 500px;
-}
+} */
 
-.container {
+/* .container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 350px;
-}
+  margin: 350px; 
+} */
 
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: aqua;
+  /* background-color: aqua; */
   color: black;
 }
 
