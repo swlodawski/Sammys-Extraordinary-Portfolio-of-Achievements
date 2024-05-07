@@ -11,8 +11,8 @@ Lastly, I was asked to create a set of contact me nav links. Within the set of l
 ## Installation
 
 For this project I used a combination of HTML and CSS and deployed on Gitpages.
-1. Project url:
-2. Project Screenshot:
+1. Project url: https://swlodawski.github.io/Sammys-Extraordinary-Portfolio-of-Achievements/
+2. Project Screenshot: ![My Portfolio Deployed url.](image.png)
 
 
 ## Usage
